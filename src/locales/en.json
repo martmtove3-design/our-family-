@@ -1,0 +1,235 @@
+{
+  "nav": {
+    "dashboard": "Vault Dashboard",
+    "members": "Family Records",
+    "tree": "Kinship Tree",
+    "announcements": "Proclamations",
+    "memorials": "Memorials",
+    "archives": "Digital Archives",
+    "calendar": "Milestone Events",
+    "settings": "Vault Controls",
+    "logout": "Revoke Access"
+  },
+  "settings": {
+    "title": "Vault Configuration",
+    "subtitle": "Manage your digital identity and heritage hub infrastructure.",
+    "badge": "Infrastructure Console",
+    "deploy": "Deploy Changes",
+    "personal": {
+      "title": "Personal Identity",
+      "photo": "Identity Photo",
+      "photo_desc": "Upload a portrait for your official heritage record. Photos are processed and stored securely in an encrypted AWS S3 bucket.",
+      "access_level": "Access Level",
+      "identifier": "Vault Identifier"
+    },
+    "preferences": {
+      "title": "Preferences",
+      "language": "Vault Language",
+      "notifications": "Vault Alerts",
+      "biometric": "Biometric Entry"
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "title": "Our Legacy, Properly Preserved.",
+      "subtitle": "A high-security heritage hub for multigenerational records, legal documents, and family kinship tracking.",
+      "access": "Access Vault",
+      "register": "Register Record",
+      "secured": "PostgreSQL Secured Vault"
+    },
+    "stats": {
+      "records": "Family Records",
+      "documents": "Vault Documents",
+      "generations": "Generations",
+      "clusters": "SQL Clusters"
+    },
+    "milestones": {
+      "title": "Vault Milestones",
+      "view": "Timeline View",
+      "empty": "No Imminent Milestones",
+      "empty_desc": "The heritage vault is synchronized. Check back soon for upcoming family celebrations.",
+      "send": "Send Blessing"
+    },
+    "registry": {
+      "title": "Vault Registry",
+      "subtitle": "Recently Synchronized",
+      "complete": "Complete Directory"
+    },
+    "security": {
+      "verified": "Verified Security",
+      "desc": "All directory metadata is redundantly stored across high-availability PostgreSQL clusters."
+    }
+  },
+  "members": {
+    "title": "Our Living Legacy",
+    "subtitle": "A complete digital record of our family connections, preserving our history and current generation for those yet to come.",
+    "badge": "The Genealogy Vault",
+    "add": "Add Family Record",
+    "search": "Search by name or relationship...",
+    "syncing": "Syncing with PostgreSQL Vault...",
+    "profile": "Heritage Profile",
+    "modify": "Modify Records",
+    "blessings": "Send Blessings",
+    "purge": "Purge Record",
+    "verified": "Verified",
+    "form": {
+      "title_add": "Add Family Record",
+      "title_edit": "Modify Heritage Record",
+      "subtitle": "Synchronizing heritage metadata with encrypted vault.",
+      "full_name": "Full Legal Name",
+      "relationship": "Kinship Role",
+      "email": "Contact Email",
+      "phone": "Contact Number",
+      "dob": "Date of Birth",
+      "gender": "Gender",
+      "address": "Residence Address",
+      "notes": "Biography / Notes",
+      "photo": "Profile Portrait",
+      "photo_change": "Change",
+      "photo_success": "Photo uploaded to secure storage",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "save": "Persist Record",
+      "saving": "Persisting..."
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "active": "Active",
+    "synchronized": "Synchronized",
+    "terminated": "Revoke Access",
+    "session": "Active Session",
+    "curator": "High Curator",
+    "member": "Member",
+    "all": "All",
+    "vault_encrypted": "Vault Encrypted",
+    "language_switched": "Language changed to {{lang}}"
+  },
+  "auth": {
+    "heritage_hub": "Heritage Hub",
+    "enterprise_grade": "Enterprise-grade digital vault for ancestral preservation and family legacy management.",
+    "encrypted_vault": "Encrypted Vault",
+    "mirroring": "Real-time Mirroring",
+    "badge": "Secure Entry",
+    "title_login": "Welcome Back",
+    "title_register": "Secure Registry",
+    "subtitle_login": "Enter your credentials to access the family's digital heritage vault.",
+    "subtitle_register": "Create a secure identity to begin preserving your family's legacy.",
+    "email_label": "Email Address",
+    "password_label": "Secure Password",
+    "btn_login": "Unlock Vault",
+    "btn_register": "Initialize Record",
+    "switch_register": "Not registered yet?",
+    "switch_login": "Already have an identity?",
+    "link_register": "Create Identity",
+    "link_login": "Sign In"
+  },
+  "tree": {
+    "title": "Heritage Lineage",
+    "subtitle": "A visual representation of our roots and branches, tracing the connections that bind us through generations.",
+    "badge": "Verified Lineage",
+    "details": "View Details"
+  },
+  "calendar": {
+    "title": "The Heritage Calendar",
+    "subtitle": "Synchronizing family milestones and remembrance dates.",
+    "birthdays": "Birthdays",
+    "memorials": "Memorials",
+    "ledger": "Event Ledger",
+    "no_records": "No milestones recorded for this date.",
+    "secure_reminders": "Secure Reminders Active",
+    "heritage": "Heritage",
+    "milestones": "Milestones"
+  },
+  "announcements": {
+    "title": "Heritage Dispatches",
+    "subtitle": "Official proclamations and updates from the family curator and senior members.",
+    "broadcast": "Broadcast Dispatch",
+    "search": "Search dispatches...",
+    "urgent": "High Priority",
+    "notice": "Official Notice",
+    "update": "Standard Update",
+    "verified": "Verified Source",
+    "authenticated": "Authenticated",
+    "no_dispatches": "No Dispatches Found",
+    "no_dispatches_desc": "The dispatch ledger is currently quiet. Check back later for official family updates.",
+    "modal": {
+      "title": "Heritage Broadcast",
+      "subtitle": "Disseminate important information to all members across the digital hub.",
+      "label_title": "Dispatch Title",
+      "label_priority": "Security Level",
+      "label_content": "Broadcast Message",
+      "placeholder_title": "e.g. Annual Reunion 2024",
+      "placeholder_content": "Enter the full details of your dispatch here...",
+      "btn": "Execute Broadcast"
+    }
+  },
+  "memorials": {
+    "title": "The Book of Memories",
+    "subtitle": "Honoring the life and enduring impact of our ancestors and loved ones who rest in history.",
+    "badge": "Everlasting Remembrance",
+    "records": "Memorial Records",
+    "solar_years": "{{count}} Solar Years",
+    "anniversary": "Anniversary",
+    "passed_in": "Passed in {{year}}",
+    "historical_context": "Historical Context",
+    "tribute": "Tribute",
+    "remembrance": "Remembrance",
+    "remembrance_desc": "Special dates coming up for our honored ancestors.",
+    "archive_title": "Legacy Archive",
+    "archive_desc": "Browse heritage documents and shared memories of the departed.",
+    "open_vault": "Open Memory Vault",
+    "no_records": "No memorial records found"
+  },
+  "archives": {
+    "badge": "Digital Repository",
+    "title": "The Family Archives",
+    "subtitle": "A curated repository of historical documents, ancestral photos, and legal records preserved for eternity.",
+    "search": "Search archives by title or member...",
+    "store": "Store Record",
+    "syncing": "Syncing Repository...",
+    "no_records": "No Records Found",
+    "no_records_desc": "The archives are currently empty. Use the 'Store Record' button to begin preservation.",
+    "sidebar": {
+      "explorer": "Archive Explorer",
+      "cloud_sync": "Cloud Synchronized",
+      "collections": "Collections",
+      "encrypted": "Vault Encrypted",
+      "encrypted_desc": "All documents are stored with AES-256 encryption at rest in our secure S3 bucket."
+    },
+    "types": {
+      "all": "All Collections",
+      "photos": "Visual Media",
+      "documents": "Legal PDF",
+      "certificates": "Certificates"
+    },
+    "modal": {
+      "title": "Secure Archival",
+      "subtitle": "Add a new record to the heritage vault. All data is redundantly stored across high-availability clusters.",
+      "label_title": "Record Title",
+      "label_type": "Record Type",
+      "label_member": "Associated Member",
+      "label_url": "Document URL",
+      "btn": "Persist Record"
+    }
+  },
+  "wishes": {
+    "title": "Send a Blessing",
+    "subtitle": "Convey your heartfelt wishes to",
+    "method_mail": "Send via Email",
+    "method_sms": "Send via SMS",
+    "label_msg": "Your Blessing Message",
+    "placeholder_msg": "May your day be filled with ancestral grace and joy...",
+    "attachments": "Attachments",
+    "add_attachment": "Add File",
+    "no_attachments": "No files attached",
+    "upload_success": "Files attached to blessing successfully",
+    "btn_send": "Dispatch Blessing",
+    "btn_sending": "Dispatching...",
+    "success_title": "Blessing Dispatched",
+    "success_desc": "Your message has been securely transmitted through the heritage network."
+  }
+}

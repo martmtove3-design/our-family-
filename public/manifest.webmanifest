@@ -1,0 +1,23 @@
+{
+  "name": "HeritageHub Vault",
+  "short_name": "HeritageHub",
+  "description": "Secure digital identity and family heritage management system.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdfcf2",
+  "theme_color": "#064e3b",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "gebeya.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "gebeya.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ]
+}

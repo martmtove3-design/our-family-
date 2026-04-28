@@ -1,0 +1,235 @@
+{
+  "nav": {
+    "dashboard": "Dashibodi ya Vault",
+    "members": "Kumbukumbu za Familia",
+    "tree": "Mti wa Ukoo",
+    "announcements": "Matangazo",
+    "memorials": "Kumbusho",
+    "archives": "Nyaraka za Kidijitali",
+    "calendar": "Matukio Muhimu",
+    "settings": "Udhibiti wa Vault",
+    "logout": "Batilisha Ufikiaji"
+  },
+  "settings": {
+    "title": "Usanidi wa Vault",
+    "subtitle": "Simamia utambulisho wako wa kidijitali na miundombinu ya kituo cha urithi.",
+    "badge": "Console ya Miundombinu",
+    "deploy": "Tumia Mabadiliko",
+    "personal": {
+      "title": "Utambulisho wa Kibinafsi",
+      "photo": "Picha ya Utambulisho",
+      "photo_desc": "Pakia picha kwa ajili ya rekodi yako rasmi ya urithi. Picha huchakatwa na kuhifadhiwa kwa usalama katika hifadhi ya AWS S3 iliyosimbwa.",
+      "access_level": "Kiwango cha Ufikiaji",
+      "identifier": "Kitambulisho cha Vault"
+    },
+    "preferences": {
+      "title": "Mapendeleo",
+      "language": "Lugha ya Vault",
+      "notifications": "Arifa za Vault",
+      "biometric": "Uingizaji wa Kibayometriki"
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "title": "Urithi Wetu, Umehifadhiwa Vyema.",
+      "subtitle": "Kituo cha urithi chenye usalama wa juu kwa rekodi za vizazi vingi, nyaraka za kisheria, na ufuatiliaji wa ujamaa wa familia.",
+      "access": "Fikia Vault",
+      "register": "Sajili Rekodi",
+      "secured": "Vault Iliyolindwa na PostgreSQL"
+    },
+    "stats": {
+      "records": "Kumbukumbu za Familia",
+      "documents": "Nyaraka za Vault",
+      "generations": "Vizazi",
+      "clusters": "Makundi ya SQL"
+    },
+    "milestones": {
+      "title": "Hatua Muhimu za Vault",
+      "view": "Mtazamo wa Muda",
+      "empty": "Hakuna Hatua Muhimu Zinazokuja",
+      "empty_desc": "Vault ya urithi imesawazishwa. Angalia tena hivi karibuni kwa sherehe za familia zinazokuja.",
+      "send": "Tuma Baraka"
+    },
+    "registry": {
+      "title": "Sajili ya Vault",
+      "subtitle": "Iliyasawazishwa Hivi Karibuni",
+      "complete": "Saraka Kamili"
+    },
+    "security": {
+      "verified": "Usalama Uliothibitishwa",
+      "desc": "Metadata zote za saraka zinahifadhiwa kwa ziada katika makundi ya PostgreSQL yenye upatikanaji wa juu."
+    }
+  },
+  "members": {
+    "title": "Urithi Wetu Unaishi",
+    "subtitle": "Rekodi kamili ya kidijitali ya uhusiano wetu wa kifamilia, kuhifadhi historia yetu na kizazi cha sasa kwa wale wanaokuja.",
+    "badge": "Vault ya Ukoo",
+    "add": "Ongeza Rekodi ya Familia",
+    "search": "Tafuta kwa jina au uhusiano...",
+    "syncing": "Inasawazisha na Vault ya PostgreSQL...",
+    "profile": "Wasifu wa Urithi",
+    "modify": "Badilisha Rekodi",
+    "blessings": "Tuma Baraka",
+    "purge": "Futa Rekodi",
+    "verified": "Imethibitishwa",
+    "form": {
+      "title_add": "Ongeza Rekodi ya Familia",
+      "title_edit": "Badilisha Rekodi ya Urithi",
+      "subtitle": "Inasawazisha metadata ya urithi na vault iliyosimbwa.",
+      "full_name": "Jina Kamili la Kisheria",
+      "relationship": "Jukumu la Ukoo",
+      "email": "Barua Pepe ya Mawasiliano",
+      "phone": "Nambari ya Mawasiliano",
+      "dob": "Tarehe ya Kuzaliwa",
+      "gender": "Jinsia",
+      "address": "Anwani ya Makazi",
+      "notes": "Wasifu / Vidokezo",
+      "photo": "Picha ya Wasifu",
+      "photo_change": "Badilisha",
+      "photo_success": "Picha imepakiwa kwenye hifadhi salama",
+      "male": "Mwanamume",
+      "female": "Mwanamke",
+      "other": "Nyingine",
+      "save": "Hifadhi Rekodi Daima",
+      "saving": "Inahifadhi..."
+    }
+  },
+  "common": {
+    "loading": "Inapakia...",
+    "save": "Hifadhi Mabadiliko",
+    "cancel": "Ghairi",
+    "active": "Inafanya kazi",
+    "synchronized": "Imesawazishwa",
+    "terminated": "Batilisha Ufikiaji",
+    "session": "Kikao Amilifu",
+    "curator": "Msimamizi Mkuu",
+    "member": "Mwanachama",
+    "all": "Zote",
+    "vault_encrypted": "Vault Iliyosimbwa",
+    "language_switched": "Lugha imebadilishwa kuwa {{lang}}"
+  },
+  "auth": {
+    "heritage_hub": "Kituo cha Urithi",
+    "enterprise_grade": "Vault ya kidijitali ya kiwango cha biashara kwa uhifadhi wa mababu na usimamizi wa urithi wa familia.",
+    "encrypted_vault": "Vault Iliyosimbwa",
+    "mirroring": "Kuakisi kwa Wakati Halisi",
+    "badge": "Uingiaiaji Salama",
+    "title_login": "Karibu Tena",
+    "title_register": "Usajili Salama",
+    "subtitle_login": "Ingiza sifa zako ili kufikia vault ya urithi wa kidijitali wa familia.",
+    "subtitle_register": "Unda utambulisho salama ili kuanza kuhifadhi urithi wa familia yako.",
+    "email_label": "Anwani ya Barua Pepe",
+    "password_label": "Nenosiri Salama",
+    "btn_login": "Fungua Vault",
+    "btn_register": "Anzisha Rekodi",
+    "switch_register": "Bado haujasajiliwa?",
+    "switch_login": "Tayari una utambulisho?",
+    "link_register": "Unda Utambulisho",
+    "link_login": "Ingia"
+  },
+  "tree": {
+    "title": "Ukoo wa Urithi",
+    "subtitle": "Uwakilishi wa picha wa mizizi na matawi yetu, ukifuatilia uhusiano unaotuunganisha kupitia vizazi.",
+    "badge": "Ukoo Uliothibitishwa",
+    "details": "Angalia Maelezo"
+  },
+  "calendar": {
+    "title": "Kalenda ya Urithi",
+    "subtitle": "Kusawazisha hatua muhimu za familia na tarehe za kumbukumbu.",
+    "birthdays": "Siku za Kuzaliwa",
+    "memorials": "Kumbukumbu",
+    "ledger": "Ledger ya Matukio",
+    "no_records": "Hakuna hatua muhimu zilizorekodiwa kwa tarehe hii.",
+    "secure_reminders": "Arifa Salama Zinafanya Kazi",
+    "heritage": "Urithi",
+    "milestones": "Hatua Muhimu"
+  },
+  "announcements": {
+    "title": "Matangazo ya Urithi",
+    "subtitle": "Matangazo rasmi na sasisho kutoka kwa msimamizi wa familia na wanachama wakuu.",
+    "broadcast": "Tangaza Taarifa",
+    "search": "Tafuta taarifa...",
+    "urgent": "Umuhimu wa Juu",
+    "notice": "Ilani Rasmi",
+    "update": "Sasisho la Kawaida",
+    "verified": "Chanzo Kilichothibitishwa",
+    "authenticated": "Imethibitishwa",
+    "no_dispatches": "Hakuna Taarifa Zilizopatikana",
+    "no_dispatches_desc": "Ledger ya taarifa kwa sasa iko kimya. Angalia tena baadaye kwa sasisho rasmi za familia.",
+    "modal": {
+      "title": "Utangazaji wa Urithi",
+      "subtitle": "Sambaza habari muhimu kwa wanachama wote kwenye kituo cha kidijitali.",
+      "label_title": "Kichwa cha Taarifa",
+      "label_priority": "Kiwango cha Usalama",
+      "label_content": "Ujumbe wa Tangazo",
+      "placeholder_title": "mf. Mkutano wa Mwaka 2024",
+      "placeholder_content": "Ingiza maelezo kamili ya taarifa yako hapa...",
+      "btn": "Tekeleza Tangazo"
+    }
+  },
+  "memorials": {
+    "title": "Kitabu cha Kumbukumbu",
+    "subtitle": "Kuheshimu maisha na athari ya kudumu ya mababu zetu na wapendwa wetu wanaopumzika katika historia.",
+    "badge": "Ukumbusho wa Milele",
+    "records": "Rekodi za Kumbukumbu",
+    "solar_years": "Miaka {{count}} ya Jua",
+    "anniversary": "Kumbusho",
+    "passed_in": "Alifariki mwaka wa {{year}}",
+    "historical_context": "Muktadha wa Kihistoria",
+    "tribute": "Sifa",
+    "remembrance": "Ukumbusho",
+    "remembrance_desc": "Tarehe maalum zinazokuja kwa mababu zetu waheshimiwa.",
+    "archive_title": "Nyaraka za Urithi",
+    "archive_desc": "Vinjari nyaraka za urithi na kumbukumbu zilizoshirikiwa za walioondoka.",
+    "open_vault": "Fungua Vault ya Kumbukumbu",
+    "no_records": "Hakuna rekodi za kumbukumbu zilizopatikana"
+  },
+  "archives": {
+    "badge": "Hifadhi ya Kidijitali",
+    "title": "Nyaraka za Familia",
+    "subtitle": "Hifadhi iliyoratibiwa ya nyaraka za kihistoria, picha za mababu, na rekodi za kisheria zilizofihifadhiwa milele.",
+    "search": "Tafuta nyaraka kwa kichwa au mwanachama...",
+    "store": "Hifadhi Rekodi",
+    "syncing": "Inasawazisha Hifadhi...",
+    "no_records": "Hakuna Rekodi Zilizopatikana",
+    "no_records_desc": "Nyaraka kwa sasa ni tupu. Tumia kitufe cha 'Hifadhi Rekodi' kuanza uhifadhi.",
+    "sidebar": {
+      "explorer": "Mvumbuzi wa Nyaraka",
+      "cloud_sync": "Iliyasawazishwa na Wingu",
+      "collections": "Mikusanyiko",
+      "encrypted": "Vault Iliyosimbwa",
+      "encrypted_desc": "Nyaraka zote zinahifadhiwa kwa usimbaji wa AES-256 zikiwa zimepumzika katika hifadhi yetu salama ya S3."
+    },
+    "types": {
+      "all": "Mikusanyiko Yote",
+      "photos": "Vyombo vya Habari",
+      "documents": "PDF ya Kisheria",
+      "certificates": "Vyeti"
+    },
+    "modal": {
+      "title": "Uhifadhi Salama",
+      "subtitle": "Ongeza rekodi mpya kwenye vault ya urithi. Data zote zinahifadhiwa kwa ziada katika makundi yenye upatikanaji wa juu.",
+      "label_title": "Kichwa cha Rekodi",
+      "label_type": "Aina ya Rekodi",
+      "label_member": "Mwanachama Husika",
+      "label_url": "URL ya Nyaraka",
+      "btn": "Hifadhi Rekodi Daima"
+    }
+  },
+  "wishes": {
+    "title": "Tuma Baraka",
+    "subtitle": "Wasilisha matakwa yako ya dhati kwa",
+    "method_mail": "Tuma kwa Barua Pepe",
+    "method_sms": "Tuma kwa SMS",
+    "label_msg": "Ujumbe Wako wa Baraka",
+    "placeholder_msg": "Siku yako na ijazwe na neema ya mababu na furaha...",
+    "attachments": "Viambatisho",
+    "add_attachment": "Ongeza Faili",
+    "no_attachments": "Hakuna faili zilizofungwa",
+    "upload_success": "Faili zimefungwa kwenye baraka kwa mafanikio",
+    "btn_send": "Tuma Baraka",
+    "btn_sending": "Inatuma...",
+    "success_title": "Baraka Imemetumwa",
+    "success_desc": "Ujumbe wako umetumwa kwa usalama kupitia mtandao wa urithi."
+  }
+}
